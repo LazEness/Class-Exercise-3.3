@@ -6,13 +6,13 @@ public class Rectangle {;
 		
 		Scanner keyboard = new Scanner(System.in);
 	
-		int  width, height, perimeter, area;
+		double  width, height, perimeter, area;
 
 		System.out.println("Input width and height of a rectangle and I will return a perimeter and an area of that rectangle.");
 
-		width = keyboard.nextInt();
+		width = keyboard.nextDouble();
 
-		height = keyboard.nextInt();
+		height = keyboard.nextDouble();
 
 		perimeter = (width * 2) + (height * 2);
 
